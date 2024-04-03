@@ -15,7 +15,7 @@ const Nav = ({ openNav }: Props) => {
             <div className='sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between'>
 
                 {/* logo design */}
-                <div className='flex items-center  md:space-x-1'>
+                <div className='flex items-center space-x-0  md:space-x-1'>
                <Image src={logo} alt='logo' className='w-[75px]'/>
 
                     <h1 className='text-[20px] sm:text-[30px] font-semibold'>HLV</h1>
@@ -46,7 +46,7 @@ const Nav = ({ openNav }: Props) => {
                             Order Now
                         </span>
                     </button>
-                    <button className='sm:px-6 sm:py-3 px-4 py-2  transition-all duration-200
+                    <button className='sm:px-6 sm:py-2 px-3 py-2  transition-all duration-200
                      bg-blue-500 flex items-center rounded-md text-white'>
                         <BiShoppingBag className='w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]' />
                     </button>
